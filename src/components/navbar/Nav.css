@@ -1,0 +1,25 @@
+.nav-whole {
+  color: white;
+  margin: auto;
+  margin-top: 3rem;
+  background-color: black;
+  height: 4rem;
+  width: 70%;
+}
+
+.items-box {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.items-box:hover {
+  cursor: pointer;
+}
+
+.nav-item {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
