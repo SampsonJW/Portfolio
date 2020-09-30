@@ -1,10 +1,21 @@
-.nav-whole {
-  color: white;
+.nav {
+  align-content: center;
+  text-align: center;
+  flex: auto;
+  width: 60%;
+  color: black;
   margin: auto;
-  margin-top: 3rem;
-  background-color: black;
+  background-color: white;
   height: 4rem;
-  width: 70%;
+  top: 3rem;
+  transition: width 0.5s linear, top 0.1s;
+}
+
+.nav.scrolled {
+  width: 100%;
+  margin: auto;
+  top: 0;
+  position: sticky;
 }
 
 .items-box {
@@ -15,11 +26,13 @@
   justify-content: space-around;
 }
 
-.items-box:hover {
-  cursor: pointer;
-}
-
 .nav-item {
   margin-left: 1rem;
   margin-right: 1rem;
+  transition: 0.3s;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  color: forestgreen;
 }
