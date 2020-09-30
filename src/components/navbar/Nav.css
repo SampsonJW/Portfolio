@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
+@import url('https://use.typekit.net/luh6oja.css');
+
+nav.nav.navbar {
+  padding: 0;
+}
+
 .nav {
-  align-content: center;
-  text-align: center;
-  flex: auto;
+  display: flex;
+  align-items: center;
   width: 60%;
   color: black;
   margin: auto;
@@ -9,6 +15,9 @@
   height: 4rem;
   top: 3rem;
   transition: width 0.5s linear, top 0.1s;
+  font-size: large;
+  font-family: 'B612', sans-serif;
+  font-weight: 600;
 }
 
 .nav.scrolled {
@@ -21,18 +30,51 @@
 .items-box {
   list-style: none;
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 }
 
 .nav-item {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  padding-top: 0.2%;
+  display: inline;
+  text-align: center;
   transition: 0.3s;
 }
 
-.nav-item:hover {
+.nav-item a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  width: 33.3%;
+  padding: 0.75rem 0;
+  margin: 0;
+  transition: color 0.3s;
+}
+
+.nav-item:hover a {
   cursor: pointer;
   color: forestgreen;
+  text-decoration: none;
+}
+
+.project:hover ~ .line {
+  margin-left: 11.6%;
+}
+
+.name:hover ~ .line {
+  margin-left: 45%;
+}
+
+.resume:hover ~ .line {
+  margin-left: 78.2%;
+}
+
+.line {
+  padding-top: 0.2%;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: auto;
+  margin-bottom: 0;
+  width: 10%;
+  margin-left: 45%;
+  background: forestgreen;
+  transition: 0.5s ease-in-out;
 }

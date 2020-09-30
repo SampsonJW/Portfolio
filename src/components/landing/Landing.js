@@ -5,8 +5,7 @@ import Nav from '../navbar/Nav';
 function Landing() {
   return (
     <div>
-      <div className='background'>{/* <Nav /> */}</div>
-      <div className='bot'></div>
+      <div className='background'></div>
     </div>
   );
 }
