@@ -1,0 +1,14 @@
+.start-button {
+  width: 8rem;
+  height: 3rem;
+}
+
+.snake-background {
+  background-color: #061628;
+}
+.snake-header {
+  padding-top: 3%;
+}
+.game-over {
+  color: white;
+}

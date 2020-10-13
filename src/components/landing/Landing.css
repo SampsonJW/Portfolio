@@ -1,9 +1,40 @@
 .background {
-  background-image: url('../../images/BG1.jpg');
-  height: 120vh;
+  background-image: url('../../images/BG4.jpg');
+  /* background-color: white; */
+  height: 102vh;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
   margin-top: -6rem;
+  animation: bg 2s linear;
+  display: flex;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  color: white;
+  text-shadow: 0 0 5px black, 0 0 5px black;
+}
+
+.details h1 {
+  font-size: 6rem;
+}
+
+.icons i {
+  margin: 1rem;
+  font-size: 2rem;
+  transition: color 0.4s ease-in-out;
+}
+
+.icons a {
+  text-decoration: none;
+  color: white;
+}
+
+.icons a:hover {
+  cursor: pointer;
+  color: #fe7500;
 }

@@ -15,23 +15,29 @@ function Nav() {
     return () => window.removeEventListener('scroll', handleScroll);
   });
 
-  if (scrolled > 0) {
+  if (scrolled > 50) {
     nav = 'nav scrolled';
   }
 
   return (
     <Navbar className={nav}>
       <div className='items-box'>
-        <NavItem className='nav-item project'>
-          <a href='#'>Projects</a>
+        <NavItem className='nav-item about'>
+          <a href='#about'>About</a>
         </NavItem>
-        <NavItem className='nav-item name'>
-          <a href='#'>
-            <strong>SAMPSON WARD</strong>
+        <NavItem className='nav-item project'>
+          <a href='#projects'>Projects</a>
+        </NavItem>
+        <NavItem className='nav-item home'>
+          <a href='#home' style={{ fontSize: '115%' }}>
+            <i className='fas fa-home'></i>
           </a>
         </NavItem>
-        <NavItem className='nav-item resume'>
-          <a href='#'>Resume</a>
+        <NavItem className='nav-item snake'>
+          <a href='#snake'>Snake</a>
+        </NavItem>
+        <NavItem className='nav-item contact'>
+          <a href='#contact'>Contact</a>
         </NavItem>
         <div className='line' />
       </div>

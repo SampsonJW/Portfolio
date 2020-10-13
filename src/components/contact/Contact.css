@@ -1,0 +1,44 @@
+.contact-bg {
+  background-color: #3e0110;
+  height: auto;
+  color: white;
+}
+
+.contact-header {
+  padding-top: 5%;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+  justify-content: center;
+}
+
+.contact-item {
+  width: 20%;
+  padding: 2%;
+  margin-bottom: 3%;
+  font-size: large;
+}
+
+.contact-item h3 {
+  color: #fe7500;
+  padding-bottom: 3%;
+}
+
+.contact-item a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.4s ease-in-out;
+}
+
+.contact-item a:hover {
+  text-decoration: none;
+  color: #fe7500;
+}
+
+.contact-icon {
+  font-size: 5rem;
+  padding-bottom: 2rem;
+}

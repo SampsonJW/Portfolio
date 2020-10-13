@@ -1,0 +1,11 @@
+.footer-bg {
+  height: 15vh;
+  background-color: #34010d;
+  color: #889098;
+  text-align: center;
+  display: flex;
+}
+
+.footer-content {
+  margin: auto;
+}

@@ -6,8 +6,8 @@ import Layout from './components/layout/Layout';
 function App() {
   return (
     <div className='App'>
+      <Nav />
       <header className='App-header'>
-        <Nav />
         <Layout />
       </header>
     </div>

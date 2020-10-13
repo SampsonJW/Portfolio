@@ -1,0 +1,22 @@
+.about-background {
+  background-color: #061628;
+  height: auto;
+}
+
+.about-header {
+  padding-top: 3%;
+  color: white;
+}
+
+.about-content {
+  padding: 2%;
+  margin: auto;
+  width: 40%;
+  color: #889098;
+  font-size: 1.2rem;
+  /* padding-bottom: 6%; */
+}
+
+.dlcv {
+  margin: 6%;
+}
