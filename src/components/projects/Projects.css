@@ -1,5 +1,9 @@
 .projects-bg {
   height: auto;
+  font-family: 'Roboto';
+}
+.projects-bg h1 {
+  font-weight: 600;
 }
 
 .holy-spoke {
@@ -28,8 +32,8 @@
 
 .desc {
   padding-right: 5%;
-  font-size: larger;
-  font-weight: 500;
+  font-size: 1.3rem;
+  margin: auto;
 }
 
 .ppt-image {
@@ -38,6 +42,12 @@
   margin-bottom: 5%;
 }
 
+.pf-image {
+  padding-right: 5%;
+  margin-bottom: 5%;
+}
+
 .projects-styler {
   padding-top: 4%;
+  font-weight: 600;
 }

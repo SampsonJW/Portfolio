@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@600&family=Roboto&display=swap');
+
 .start-button {
   width: 8rem;
   height: 3rem;
 }
 
 .snake-background {
+  font-weight: 600;
   background-color: #061628;
 }
 .snake-header {

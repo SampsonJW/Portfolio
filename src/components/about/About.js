@@ -5,10 +5,11 @@ import Resume from '../../resources/Sampson_Ward_CV_05_10.pdf'
 
 function About() {
   return (
+    
     <div id='about'>
       <div className='about-background'>
         <div className='about-header'>
-          <h5 className='pb-4' style={{ color: '#fe7500' }}>
+          <h5 className='pb-4' style={{   fontWeight: '600', color: '#fe7500' }}>
             About
           </h5>
           <h1>Nau mai haere mai.</h1>
@@ -16,14 +17,11 @@ function About() {
         </div>
         <div className='about-content'>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            est omnis iure consequuntur voluptate, cumque quo et doloribus
-            repellat quae hic nisi, aperiam fuga repudiandae aliquid dolor
-            nesciunt, modi autem. Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Vitae aspernatur corporis voluptatibus animi illo
-            natus ut doloribus quasi, nesciunt officiis inventore, architecto
-            modi nobis magnam doloremque dolores quibusdam quae debitis.
+            I am Sampson Ward, a passionate Junior Developer and tech enthusiast. I proudly graduated in December of 2019 with a BSc Majoring in Computer Science from the University of Waikato, Hamilton, New Zealand.
+            
           </p>
+          <p>I Currently work as a Junior Support Developer at COMS Systems LTD. Helping to smash bugs, write clean concise documentation and beautiful scalable code.</p>
+          <p>My passion for Computer Science is rooted in Web Development and Design, brainstorming effective solutions for real world problems and being a part of progressing the world into a more efficient place.</p>
           <Button className='dlcv' href={Resume}>Download CV</Button>
         </div>
       </div>

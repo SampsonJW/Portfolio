@@ -15,6 +15,7 @@ function Nav() {
     return () => window.removeEventListener('scroll', handleScroll);
   });
 
+
   if (scrolled > 50) {
     nav = 'nav scrolled';
   }
