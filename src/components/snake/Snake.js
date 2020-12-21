@@ -126,8 +126,11 @@ function Snake() {
         <h5 className='pb-4' style={{ color: '#fe7500' }}>
           Snake
         </h5>
-        <h6 style={{ color: 'white', padding: '1%' }}>Controls: WASD</h6>
-        <p style={{ color: '#889098' }}>Try beating my high score of 1600 ;)</p>
+        <h6 style={{ color: 'white', padding: '1%' }}>Controls: </h6>
+        <h6 style={{ color: 'white'}}>W: Up</h6>
+        <h6 style={{ color: 'white'}}>A: Left</h6>
+        <h6 style={{ color: 'white'}}>S: Down</h6>
+        <h6 style={{ color: 'white'}}>D: Right</h6>
         <div style={{ padding: '2%' }}>
           <canvas
             style={{ border: '5px solid white' }}

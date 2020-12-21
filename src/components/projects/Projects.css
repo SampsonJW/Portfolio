@@ -26,7 +26,8 @@
 }
 
 .hs-image {
-  max-width: 40vw;
+  max-width: 50%;
+  width: 400vw;
   padding-right: 5%;
 }
 
@@ -37,12 +38,15 @@
 }
 
 .ppt-image {
-  max-width: 40vw;
+  max-width: 50%;
+  width: 400vw;
   padding-right: 5%;
   margin-bottom: 5%;
 }
 
 .pf-image {
+  max-width: 35%;
+  width: 400vw;
   padding-right: 5%;
   margin-bottom: 5%;
 }
@@ -50,4 +54,22 @@
 .projects-styler {
   padding-top: 4%;
   font-weight: 600;
+}
+.projects-icon {
+  padding: 2%;
+}
+.projects-icon i {
+  margin: 1rem;
+  font-size: 3rem;
+  transition: color 0.4s ease-in-out;
+}
+
+.projects-icon a {
+  text-decoration: none;
+  color: black;
+}
+
+.projects-icon a:hover {
+  cursor: pointer;
+  color: #fe7500;
 }

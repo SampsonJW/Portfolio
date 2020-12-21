@@ -23,6 +23,7 @@ nav.nav.navbar {
   top: 0;
   position: sticky;
   border-radius: 0rem;
+  box-shadow: 5px 2px 8px;
 }
 
 .items-box {
