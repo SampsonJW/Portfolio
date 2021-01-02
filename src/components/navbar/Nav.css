@@ -32,20 +32,63 @@ nav.nav.navbar {
 }
 
 .nav-item {
-  opacity: 100%;
+  /* opacity: 1; */
   padding-top: 0.2%;
   display: inline;
   text-align: center;
-  transition: 0.3s;
-  animation: fade 1s linear;
+  /* transition: 0.3s; */
 }
 
-@keyframes fade {
-  from {
-    opacity: 0%;
+.fade-in {
+  animation: fadeIn linear 2s;
+  -webkit-animation: fadeIn linear 2s;
+  -moz-animation: fadeIn linear 2s;
+  -o-animation: fadeIn linear 2s;
+  -ms-animation: fadeIn linear 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  to {
-    opacity: 100%;
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 

@@ -22,7 +22,7 @@ function Nav() {
 
   return (
     <Navbar className={nav}>
-      <div className='items-box'>
+      <div className='items-box fade-in'>
         <NavItem className='nav-item about'>
           <a href='#about'>About</a>
         </NavItem>
