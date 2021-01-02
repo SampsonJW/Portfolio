@@ -32,11 +32,9 @@ nav.nav.navbar {
 }
 
 .nav-item {
-  /* opacity: 1; */
   padding-top: 0.2%;
   display: inline;
   text-align: center;
-  /* transition: 0.3s; */
 }
 
 .fade-in {
