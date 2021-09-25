@@ -42,7 +42,7 @@ function Projects() {
           <img className='ppt-image' src={Police} alt='' />
         </div>
       </div>
-      {/* <hr />
+      <hr />
       <div className='clojure-path'>
         <h1>Clojure Path Finder</h1>
         <div className='content'>
@@ -63,7 +63,7 @@ function Projects() {
         <a href='https://github.com/SampsonJW'>
           <i className='fab fa-github' />
         </a>
-      </div> */}
+      </div>
     </div>
   );
 }
