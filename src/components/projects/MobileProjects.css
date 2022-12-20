@@ -1,0 +1,80 @@
+.projects-bg-mob {
+  height: auto;
+  font-family: 'Roboto';
+}
+.projects-bg-mob h1 {
+  font-weight: 600;
+}
+
+.holy-spoke-mob {
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+.nz-police-mob {
+  padding-top: 5%;
+}
+.clojure-path-mob {
+  padding-top: 5%;
+}
+
+.content-mob {
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  /* margin-left: 15%;
+  margin-right: 15%; */
+}
+
+.hs-image-mob {
+  max-width: 90%;
+  /* width: 400vw; */
+  padding-bottom: 2%;
+  /* padding-right: 5%; */
+  margin: auto;
+}
+
+.desc-mob {
+  /* padding-right: 5%; */
+  font-size: 1.3rem;
+  margin: auto;
+}
+
+.ppt-image-mob {
+  max-width: 50%;
+  width: 400vw;
+  padding-right: 5%;
+  margin-bottom: 5%;
+}
+
+.pf-image-mob {
+  max-width: 35%;
+  width: 400vw;
+  padding-right: 5%;
+  margin-bottom: 5%;
+}
+
+.projects-styler {
+  padding-top: 4%;
+  font-weight: 600;
+}
+.projects-icon {
+  padding: 2%;
+}
+.projects-icon i {
+  margin: 1rem;
+  font-size: 3rem;
+  transition: color 0.4s ease-in-out;
+}
+
+.projects-icon a {
+  text-decoration: none;
+  color: black;
+}
+
+.projects-icon a:hover {
+  cursor: pointer;
+  color: #fe7500;
+}
