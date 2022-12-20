@@ -1,0 +1,40 @@
+.contact-bg-mob {
+  background-color: #3e0110;
+  height: auto;
+  color: white;
+  /* font-weight: 600; */
+}
+
+.contact-header-mob {
+  padding-top: 5%;
+}
+
+.contact-content-mob {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  justify-content: center;
+}
+
+.contact-item-mob {
+  padding: 2%;
+  margin: auto;
+  font-size: large;
+}
+
+.contact-item-mob p {
+  color: #fe7500;
+  padding-bottom: 3%;
+}
+
+.contact-item-mob a {
+  text-decoration: none;
+  color: white;
+  padding-top: 4%;
+}
+
+.contact-icon-mob {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+}
