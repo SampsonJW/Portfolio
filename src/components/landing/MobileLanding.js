@@ -1,21 +1,16 @@
 import React from 'react';
-import './Landing.css';
-import { isMobile } from 'react-device-detect';
-import MobileLanding from './MobileLanding';
-function Landing() {
-  if (isMobile) {
-    return <MobileLanding />;
-  } else {
-    return (
+import './MobileLanding.css';
+function MobileLanding() {
+  return (
+    <div>
       <div>
-        <div id="home" className="background">
-          <div className="details">
+        <div id="home" className="background-mobile">
+          <div className="details-mobile">
             <h1 className="name mb-4">Sampson Ward</h1>
-            <h3 className="description">
+            <p className="description">
               Web Developer | Software Engineer | IT Enthusiast
-            </h3>
-            <h6>Background Image: Asakusa, Tokyo, Japan</h6>
-            <div className="icons">
+            </p>
+            <div className="icons-mobile">
               <a href="https://www.linkedin.com/in/sampson-ward/">
                 <i className="fab fa-linkedin-in" />
               </a>
@@ -26,8 +21,8 @@ function Landing() {
           </div>
         </div>
       </div>
-    );
-  }
+    </div>
+  );
 }
 
-export default Landing;
+export default MobileLanding;
