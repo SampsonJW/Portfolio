@@ -1,5 +1,5 @@
 .footer-bg {
-  height: 15vh;
+  height: 12vh;
   background-color: #34010d;
   color: #889098;
   text-align: center;
@@ -8,5 +8,6 @@
 }
 
 .footer-content {
+  padding-top: 1%;
   margin: auto;
 }
