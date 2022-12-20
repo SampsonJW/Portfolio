@@ -1,0 +1,23 @@
+.about-background-mob {
+  background-color: #061628;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.about-header-mob {
+  padding-top: 3%;
+  color: white;
+}
+
+.about-content-mob {
+  padding: 5%;
+  margin: auto;
+  /* width: 40%; */
+  color: #889098;
+  font-size: 1.3rem;
+  /* padding-bottom: 6%; */
+}
+
+.dlcv {
+  margin: 6%;
+}
