@@ -24,36 +24,29 @@
   margin: auto;
   padding-left: 5%;
   padding-right: 5%;
-  /* margin-left: 15%;
-  margin-right: 15%; */
 }
 
 .hs-image-mob {
   max-width: 90%;
-  /* width: 400vw; */
   padding-bottom: 2%;
-  /* padding-right: 5%; */
   margin: auto;
 }
 
 .desc-mob {
-  /* padding-right: 5%; */
   font-size: 1.3rem;
   margin: auto;
 }
 
 .ppt-image-mob {
-  max-width: 50%;
-  width: 400vw;
-  padding-right: 5%;
-  margin-bottom: 5%;
+  max-width: 90%;
+  margin: auto;
+  padding-bottom: 2%;
 }
 
 .pf-image-mob {
-  max-width: 35%;
-  width: 400vw;
-  padding-right: 5%;
-  margin-bottom: 5%;
+  max-width: 90%;
+  margin: auto;
+  padding-bottom: 2%;
 }
 
 .projects-styler {
@@ -71,10 +64,5 @@
 
 .projects-icon a {
   text-decoration: none;
-  color: black;
-}
-
-.projects-icon a:hover {
-  cursor: pointer;
   color: #fe7500;
 }
