@@ -121,17 +121,17 @@ function Snake() {
   }, [snake, apple, gameOver]);
 
   return (
-    <div id='snake' className='snake-background'>
-      <div className='snake-header'>
-        <h5 className='pb-4' style={{ color: '#fe7500' }}>
+    <div id="snake" className="snake-background">
+      <div className="snake-header">
+        <div className="pb-4" style={{ color: '#fe7500' }}>
           Snake
-        </h5>
-        <h6 style={{ color: 'white', padding: '1%' }}>Controls: </h6>
-        <h6 style={{ color: 'white'}}>W: Up</h6>
-        <h6 style={{ color: 'white'}}>A: Left</h6>
-        <h6 style={{ color: 'white'}}>S: Down</h6>
-        <h6 style={{ color: 'white'}}>D: Right</h6>
-        <div style={{ padding: '2%' }}>
+          <h6 style={{ color: 'white', padding: '1%' }}>Controls: </h6>
+          <h6 style={{ color: 'white' }}>W: Up</h6>
+          <h6 style={{ color: 'white' }}>A: Left</h6>
+          <h6 style={{ color: 'white' }}>S: Down</h6>
+          <h6 style={{ color: 'white' }}>D: Right</h6>
+        </div>
+        <div>
           <canvas
             style={{ border: '5px solid white' }}
             ref={canvasRef}
@@ -139,11 +139,11 @@ function Snake() {
             height={`${CANVAS_SIZE[1]}px`}
           />
         </div>
-        {gameOver && <div className='game-over'>GAME OVER!</div>}
-        <div className='game-over'>Score: {score}</div>
-        <div className='game-over'>High score: {highScore}</div>
-        <div className='pb-5 pt-3'>
-          <button className='start-button btn btn-success' onClick={startGame}>
+        {gameOver && <div className="game-over">GAME OVER!</div>}
+        <div className="game-over">Score: {score}</div>
+        <div className="game-over">High score: {highScore}</div>
+        <div className="pb-5 pt-3">
+          <button className="start-button btn btn-success" onClick={startGame}>
             Start Game
           </button>
         </div>
