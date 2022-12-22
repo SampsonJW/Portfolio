@@ -23,7 +23,7 @@ function About() {
           </div>
           <div className="about-content">
             <p>
-              I am Sampson Ward, a passionate Junior Developer and tech
+              Hey! I'm Sampson Ward, a passionate software engineer and tech
               enthusiast. I proudly graduated in December of 2019 with a BSc
               Majoring in Computer Science from the University of Waikato,
               Hamilton, New Zealand.
